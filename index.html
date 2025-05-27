@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav style="min-width: 500px">
+      <span style="color: #171717">MOHAMMED AFTAB</span>
+      <span
+        ><a href="#about" class="nav-bar">About me</a>
+        <a href="#skills" class="nav-bar">Skills</a>
+        <a
+          href="#contact"
+          class="nav-bar button"
+          style="
+            color: #fff;
+            text-decoration: none;
+            border: 2px solid #5e3bee;
+            border-radius: 20px;
+            background-color: #5e3bee;
+            padding: 4px;
+          "
+          >Contact</a
+        ></span
+      >
+    </nav>
+
+    <div class="about-me" id="about" style="color: #fff">
+      <div class="text">
+        <h1>Hi, I am Mohammed Aftab</h1>
+        <h2>Frontend Developer</h2>
+        <a
+          href="http://127.0.0.1:5500/project-folder/soon.html"
+          style="
+            color: #fff;
+            text-decoration: none;
+            border: 2px solid #5e3bee;
+            border-radius: 6px;
+            background-color: #5e3bee;
+            padding: 4px;
+          "
+          >Resume</a
+        >
+      </div>
+      <img
+        src="myimg.jpeg"
+        style="
+          width: 200px;
+          height: auto;
+          border-radius: 100%;
+          box-shadow: 0px 6px 50px rgba(94, 59, 238, 0.4);
+        "
+        alt=""
+      />
+    </div>
+
+    <div class="about">
+      <h1
+        style="
+          text-align: center;
+          font-family: Noto Sans, sans-serif;
+          color: #ffff;
+        "
+      >
+        About
+      </h1>
+      <p
+        style="
+          padding: 20px;
+          font-size: 20px;
+          font-family: sans-serif;
+          color: #fff;
+        "
+      >
+        My passion for coding and problem-solving drives me to continuously
+        learn and take on new challenges. I am eager to contribute effectively
+        to the field of software engineering and am always looking for
+        opportunities to innovate and grow. Let's connect and explore ways to
+        collaborate and achieve great things together!
+      </p>
+    </div>
+
+    <div class="tech" id="skills">
+      <p
+        style="
+          font-size: 30px;
+          text-align: center;
+          font-family: anton;
+          min-width: 500px;
+          color: #ffff;
+        "
+      >
+        Skills
+      </p>
+      <div style="text-align: center; color: #fff">Programming Language</div>
+      <div
+        class="Programming"
+        style="
+          text-decoration: none;
+          text-align: center;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          margin-bottom: 20px;
+          margin-top: 20px;
+        "
+      >
+        <!-- <li>Programming Language</li> -->
+        <div class="skill-text" style="margin-right: 40px">C++</div>
+        <div class="skill-text">JavaScript</div>
+      </div>
+
+      <div style="text-align: center; color: #fff">Web Technologies</div>
+      <div
+        class="Web"
+        style="
+          text-decoration: none;
+          text-align: center;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          margin-bottom: 20px;
+          margin-top: 20px;
+        "
+      >
+        <div class="skill-text" style="margin-right: 40px">HTML</div>
+        <div class="skill-text" style="margin-right: 40px">CSS</div>
+        <div class="skill-text">JavaScript</div>
+      </div>
+
+      <div style="text-align: center; color: #fff">Tools & Platforms</div>
+      <div
+        class="Tools"
+        style="
+          text-decoration: none;
+          text-align: center;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          margin-bottom: 20px;
+          margin-top: 20px;
+        "
+      >
+        <div class="skill-text" style="margin-right: 40px">Figma</div>
+        <div class="skill-text">Vs code studio</div>
+      </div>
+    </div>
+
+    <form id="contact">
+      <h1
+        style="
+          text-align: center;
+          font-family: Noto Sans, sans-serif;
+          min-width: 500px;
+          color: #ffff;
+        "
+      >
+        Contact me
+      </h1>
+      <div>
+        <label>
+          First Name
+          <input type="text" name="firstName" />
+        </label>
+
+        <label>
+          Last Name
+          <input type="text" name="lastName" />
+        </label>
+
+        <label>
+          E-mail
+          <input type="email" name="email" />
+        </label>
+
+        <label>
+          Phone Number
+          <input type="tel" name="phone" />
+        </label>
+
+        <label>
+          Message
+          <textarea
+            name="message"
+            rows="4"
+            placeholder="Leave a message........."
+          ></textarea>
+        </label>
+        <button type="submit">submit</button>
+      </div>
+    </form>
+
+    <footer>
+      <section>
+        <a href="https://github.com/mohammed-aftab28"
+          ><img src="github.png" alt=""
+        /></a>
+        <a href="https://www.linkedin.com/in/mohammed-aftab-5667a6306/"
+          ><img src="LinkedIn.png" alt=""
+        /></a>
+      </section>
+      <section>
+        <p>All Copyright&copy; reserved 2025</p>
+      </section>
+    </footer>
+  </body>
+</html>
